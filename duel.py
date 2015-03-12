@@ -1,10 +1,5 @@
 class Goblin:
 
-    @classmethod
-    def stats(self):
-        print(self.attack)
-        print(self.defense)
-        print(self.hitpoints)
 
     def __init__(self):
         self.attack = 5
@@ -16,3 +11,6 @@ class Goblin:
             return "i am fine"
         else:
             return "i am in bad shape"
+
+    def attack(self):
+        print(self.attack)
